@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background-color: #333333;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    color: white;
+    font-size: 20px;
+    padding-right: 10px; 
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+     color: white;
+}
